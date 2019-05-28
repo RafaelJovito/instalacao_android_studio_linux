@@ -1,0 +1,1 @@
+# intalacao_android_studio_linux
