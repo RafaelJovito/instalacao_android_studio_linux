@@ -38,14 +38,14 @@ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 
 * Variáveis de ambiente
 
-Adicionar as variaváveis de ambiente em:```shell  /etc/profile ou o ~/.bashrc ```
+Adicionar as variaváveis de ambiente em: ```sudo vim /etc/profile ou o ~/.bashrc ```
 
 Adicionar os caminhos:
 
 ```shell
 
-export ANDROID_HOME=/opt/android/android-sdk-linux
-export ANDROID_SDK_ROOT=/opt/android/android-sdk-linux
+export ANDROID_HOME=/usr/local/android/android-sdk-linux
+export ANDROID_SDK_ROOT=/usr/local/android/android-sdk-linux
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
