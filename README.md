@@ -35,3 +35,20 @@ sudo apt-get install qemu-kvm libvirt-bin virtinst bridge-utils cpu-checker
 
 sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
+
+* Variáveis de ambiente
+
+Adicionar as variaváveis de ambiente em:```shell  /etc/profile ou o ~/.bashrc ```
+
+Adicionar os caminhos:
+
+```shell
+
+export ANDROID_HOME=/opt/android/android-sdk-linux
+export ANDROID_SDK_ROOT=/opt/android/android-sdk-linux
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+```
+
+Depois disso, reiniciar o computador.
