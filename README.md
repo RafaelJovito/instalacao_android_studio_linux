@@ -27,6 +27,13 @@ sudo apt-get install libz1 libncurses5 libbz2-1.0:i386 libstdc++6 libbz2-1.0
 ```shell
 
 sudo apt-get install qemu-kvm libvirt-bin virtinst bridge-utils cpu-checker
+testar comandos abaixo:
+
+sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+sudo adduserid -unlibvirtd
+sudo ls -la /var/run/libvirt/libvirt-sock
+sudo chown root:libvirtd /dev/kvm
+
 ```
 
 * Instalar OpenGL
