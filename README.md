@@ -72,3 +72,8 @@ bcdedit /set nx AlwaysOn
 ```
 E reinicia o computador.
 
+No VMware:
+
+Editar a configuração do processador:
+
+Definir como VT-X e marcar as duas ultimas opções;
