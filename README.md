@@ -59,3 +59,16 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 ```
 
 Depois disso, reiniciar o computador.
+
+
+* Ativar VT-X no Windows e no VMware (caso esteja usando)
+
+No Windows:  ```na barra de busca e digita CMD ```
+Colocar os seguintes comandos: 
+
+```
+bcdedit /set hypervisorlaunchtype off
+bcdedit /set nx AlwaysOn
+```
+E reinicia o computador.
+
