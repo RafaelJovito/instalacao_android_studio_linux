@@ -43,11 +43,12 @@ sudo chown root:libvirtd /dev/kvm
 sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 
-* Variáveis de ambiente
+
+## Variáveis de ambiente
 
 Adicionar as variaváveis de ambiente em: ```sudo vim /etc/profile ou o ~/.bashrc ```
 
-Adicionar os caminhos:
+* Adicionar os caminhos:
 
 ```shell
 
@@ -61,7 +62,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 Depois disso, reiniciar o computador.
 
 
-* Ativar VT-X no Windows e no VMware (caso esteja usando)
+## Ativar VT-X no Windows e no VMware (caso esteja usando)
 
 No Windows:  ```na barra de busca e digita CMD ```
 Colocar os seguintes comandos: 
@@ -72,7 +73,7 @@ bcdedit /set nx AlwaysOn
 ```
 E reinicia o computador.
 
-No VMware:
+* No VMware:
 
 Editar a configuração do processador:
 
