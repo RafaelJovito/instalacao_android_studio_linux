@@ -77,3 +77,13 @@ No VMware:
 Editar a configuração do processador:
 
 Definir como VT-X e marcar as duas ultimas opções;
+
+* Teste para erro no ./sdkmanager
+verificar versão do Android usada.
+
+```
+sudo sdkmanager "platforms;android-26"
+ou
+android update sdk --no-ui --filter build-tools-25.0.0,android-25,extra-android-m2repository
+```
+
